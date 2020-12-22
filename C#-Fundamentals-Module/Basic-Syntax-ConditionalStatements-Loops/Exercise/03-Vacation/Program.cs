@@ -12,13 +12,12 @@ namespace _03_Vacation
             string day = Console.ReadLine();
 
             double totalPrice = 0;
+            
             if(tipeOfGroup == "Students")
             {
                 if (day == "Friday")
                 {
                     totalPrice = numberOfPeople * 8.45;
-
-
                 }
                 else if (day == "Saturday")
                 {
@@ -27,23 +26,21 @@ namespace _03_Vacation
                 else if (day == "Sunday")
                 {
                     totalPrice = numberOfPeople * 10.46;
-                }
-
+                }   
                 
-
                 if(numberOfPeople >= 30)
                 {
                     totalPrice *= 0.85;
                 }
-
             }
+                 
             else if( tipeOfGroup == "Business")
             {
                 if(numberOfPeople >= 100)
                 {
                     numberOfPeople -= 10;
                 }
-
+                
                 if ( day == "Friday")
                 {
                     totalPrice = numberOfPeople * 10.90;
