@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_03_Жацантион</RootNamespace>
+    <RootNamespace>_03_Vacation</RootNamespace>
   </PropertyGroup>
 
 </Project>
