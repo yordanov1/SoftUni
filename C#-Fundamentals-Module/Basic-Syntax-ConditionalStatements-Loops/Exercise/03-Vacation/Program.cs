@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace _03_Жацантион
+namespace _03_Vacation
 {
     class Program
     {
