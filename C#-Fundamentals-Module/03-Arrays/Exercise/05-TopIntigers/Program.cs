@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace EXER_05.TopIntigerss
+namespace EXER_05.TopIntigers
 {
     class Program
     {
@@ -33,13 +33,7 @@ namespace EXER_05.TopIntigerss
                 }
 
                 isBigger = true;
-
-
             }
-
-
-
-
         }
     }
 }
