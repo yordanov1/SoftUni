@@ -19,10 +19,8 @@ namespace EXER_02.CommonElements
                     {
                         Console.Write(arrTwo[i] + " ");
                     }
-
                 }
             }
-          
         }
     }
 }
