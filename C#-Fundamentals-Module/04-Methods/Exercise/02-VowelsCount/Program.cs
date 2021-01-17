@@ -4,8 +4,7 @@ using System.Diagnostics.Tracing;
 namespace EXER_02.VowelsCount
 {
     class Program
-    {
-        
+    {        
         static void Main(string[] args)
         {
             string input = Console.ReadLine().ToLower();
