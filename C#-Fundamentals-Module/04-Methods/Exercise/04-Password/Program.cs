@@ -30,13 +30,10 @@ namespace EXER_04.Password
                 Console.WriteLine("Password must be between 6 and 10 characters");
                 one = false;
             }
-
         }
 
         static void LettersAndNumbersWeHave(string password , int countTwo , bool one)
-        {
-            
-
+        {            
             foreach (char item in password)
             {
                 if (!char.IsLetterOrDigit(item))
@@ -44,6 +41,7 @@ namespace EXER_04.Password
                     countTwo++;
                 }
             }
+            
             if (countTwo > 0)
             {
                 Console.WriteLine("Password must consist only of letters and digits");
@@ -66,12 +64,6 @@ namespace EXER_04.Password
                 one = false;
             }
 
-            
-
         }
-
-
-
-
     }
 }
