@@ -4,6 +4,7 @@ namespace EXER_01.Smallest
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             decimal one = decimal.Parse(Console.ReadLine());
