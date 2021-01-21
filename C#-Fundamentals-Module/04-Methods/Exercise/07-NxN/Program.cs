@@ -20,9 +20,6 @@ namespace EXER_07.NxN
                     Console.Write(n + " ");
                 }
 
-
-
-
                 Console.WriteLine();
             }
         }
