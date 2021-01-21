@@ -12,9 +12,7 @@ namespace EXER_05.AddAndSubtract
 
             int sum = Sum(firstNumber, secondNumber, thirdNumber);
 
-
             Console.WriteLine(sum);
-
         }
 
         private static int Sum(int firstNumber, int secondNumber, int thirdNumber)
@@ -22,7 +20,6 @@ namespace EXER_05.AddAndSubtract
             int sumFirsAndSecond = firstNumber + secondNumber;
 
             return Subtract(sumFirsAndSecond, thirdNumber);
-
         }
 
         private static int Subtract(int sumFirsAndSecond, int thirdNumber)
