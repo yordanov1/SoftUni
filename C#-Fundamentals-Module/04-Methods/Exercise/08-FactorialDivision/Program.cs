@@ -9,8 +9,6 @@ namespace EXER_08._8._FactorialDivision
             int firstNumber = int.Parse(Console.ReadLine());
             int secondNumber = int.Parse(Console.ReadLine());
 
-
-
             double factorialFirstNum= GetFactorial(firstNumber);
             double factorialSecondNum= GetFactorial(secondNumber);
 
