@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LAB_04.Traingle
+namespace LAB_04.Triangle
 {
     class Program
     {
@@ -20,7 +20,5 @@ namespace LAB_04.Traingle
             }
             Console.WriteLine();
         }
-
-
     }
 }
