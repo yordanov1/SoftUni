@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -35,44 +35,33 @@ namespace LAB_07.ListManipulation
                             if (list[i] >= int.Parse(command[2]))
                             {
                                 bigger.Add(list[i]);
-
                             }
-
                         }
+                        
                         Console.WriteLine(string.Join(" ", bigger));
-
                     }
-
 
                     if (command.Contains("Filter") && command.Contains("<"))
                     {
-
                         List<int> smaller = new List<int>();
 
                         for (int i = 0; i < list.Count; i++)
                         {
-
                             if (list[i] < int.Parse(command[2]))
                             {
                                 smaller.Add(list[i]);
-
-
                             }
                         }
                         Console.WriteLine(string.Join(" ", smaller));
                     }
                 }
-
-
                 else
                 {
-
                     if (command.Contains("PrintEven"))
                     {
                         List<int> even = new List<int>();
                         for (int i = 0; i < list.Count; i++)
                         {
-
                             if (list[i] % 2 == 0)
                             {
                                 even.Add(list[i]);
@@ -81,13 +70,11 @@ namespace LAB_07.ListManipulation
                         Console.WriteLine(string.Join(" ", even));
                     }
 
-
                     if (command.Contains("PrintOdd"))
                     {
                         List<int> odd = new List<int>();
                         for (int i = 0; i < list.Count; i++)
                         {
-
                             if (list[i] % 2 == 1)
                             {
                                 odd.Add(list[i]);
@@ -96,27 +83,15 @@ namespace LAB_07.ListManipulation
                         Console.WriteLine(string.Join(" ", odd));
                     }
 
-
                     if (command.Contains("GetSum"))
                     {
                         int sum = list.Sum();
                         Console.WriteLine(sum);
                     }
-
                 }
 
-
                 command = Console.ReadLine().Split().ToList();
-
-
-
-            }
-
-
-               
-
-
-            
+            }        
         }
     }
 }
