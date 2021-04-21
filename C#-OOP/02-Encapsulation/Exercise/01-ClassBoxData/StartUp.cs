@@ -13,7 +13,6 @@ namespace Exer0j1.ClassBoxData
             try
             {
                 Box box = new Box(length, width, height);
-
                 
                 Console.WriteLine($"Surface Area - {box.SurfaceArea():f2}");
                 Console.WriteLine($"Lateral Surface Area - {box.LateralSurfaceArea():f2}");
