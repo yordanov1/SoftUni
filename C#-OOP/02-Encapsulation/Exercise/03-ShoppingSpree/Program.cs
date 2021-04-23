@@ -15,7 +15,6 @@ namespace Exer_03.ShoppingSpree
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-
             }
         }
     }
