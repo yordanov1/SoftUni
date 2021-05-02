@@ -9,7 +9,6 @@ namespace Exer_05.FootballTeamGenerator
         {
             Engine engine = new Engine();
             engine.Run();
-
         }
     }
 }
