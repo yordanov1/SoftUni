@@ -15,7 +15,6 @@ namespace Exer_03.Telephony
             IEngine engine = new Engine(reader, writer);
 
             engine.Run();
-
         }
     }
 }
