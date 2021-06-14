@@ -4,7 +4,6 @@ function sum(arr) {
    let last = Number(arr.pop());
 
    return first + last;
-
 }
 
 console.log(sum(['20', '30', '40']));
