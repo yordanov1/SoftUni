@@ -6,10 +6,8 @@ function even(arr) {
         if (i % 2 === 0) {
             newArr.push(arr[i]);
         }
-
-
+    
         return newArr.join(' ');
 }
-
 
 console.log(even(['20', '30', '40', '50', '60']))
