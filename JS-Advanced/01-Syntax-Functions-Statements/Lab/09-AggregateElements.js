@@ -9,5 +9,4 @@ function solve(elements) {
     console.log(join);
 }
 
-
 solve([1, 2, 3]);
