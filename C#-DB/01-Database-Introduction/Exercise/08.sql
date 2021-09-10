@@ -19,7 +19,6 @@ ALTER TABLE Users
 ADD IsDeleted BIT
 
 
-
 INSERT INTO Users
 (Username, [Password], ProfilePicture, LastLoginTime, IsDeleted)
 VALUES
