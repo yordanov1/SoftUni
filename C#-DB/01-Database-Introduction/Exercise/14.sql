@@ -79,6 +79,7 @@ VALUES
 
 INSERT INTO Customers
 			(DriverLicenceNumber, FullName, [Address], City, ZIPCode, Notes)
+			
 VALUES 
 			('12345', 'Ivan', NULL, NULL, NULL, NULL),
 			('123456', 'Toshko', NULL, NULL, NULL, NULL),
