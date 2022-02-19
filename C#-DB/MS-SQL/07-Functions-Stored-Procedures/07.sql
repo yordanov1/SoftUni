@@ -11,7 +11,7 @@ BEGIN
         IF(CHARINDEX(@currentLeter, @setOfLetters) = 0)
         RETURN 0
 
-       SET @count += 1;
+        SET @count += 1;
      END
 	 RETURN 1
 END
