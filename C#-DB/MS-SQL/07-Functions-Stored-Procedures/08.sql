@@ -5,8 +5,7 @@ BEGIN
 	WHERE EmployeeID IN (
 		SELECT EmployeeID
 		  FROM Employees
-		 WHERE DepartmentID = @departmentId
-	)
+		 WHERE DepartmentID = @departmentId)
 
 	UPDATE Employees
 	   SET ManagerID = NULL
