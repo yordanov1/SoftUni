@@ -1,5 +1,4 @@
 CREATE PROC usp_GetHoldersWithBalanceHigherThan(@number DECIMAL(15, 2))
-
 AS
 
 BEGIN
