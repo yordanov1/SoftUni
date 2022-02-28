@@ -11,5 +11,4 @@ BEGIN
 	  HAVING SUM(a.Balance) > @number
 	ORDER BY ah.FirstName,
 		 ah.LastName
-
 END
