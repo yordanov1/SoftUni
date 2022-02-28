@@ -1,7 +1,6 @@
 CREATE PROC usp_GetHoldersWithBalanceHigherThan(@number DECIMAL(15, 2))
 AS
 BEGIN
-
 	  SELECT ah.FirstName,
 		 ah.LastName
 	    FROM AccountHolders AS ah
