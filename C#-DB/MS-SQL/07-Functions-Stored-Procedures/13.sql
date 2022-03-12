@@ -13,6 +13,5 @@ RETURN
 	          JOIN UsersGames AS us
 
 	            ON us.GameId = g.Id
-
 	         WHERE g.[Name] = @gameName) AS r
 	  WHERE r.[Row Number] % 2 != 0
