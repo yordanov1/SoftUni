@@ -9,7 +9,6 @@ RETURN
 	            AS [Row Number]
 
 	          FROM Games AS g
-
 	          JOIN UsersGames AS us
 	            ON us.GameId = g.Id
 	         WHERE g.[Name] = @gameName) AS r
