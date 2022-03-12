@@ -7,7 +7,6 @@ RETURN
 	               us.Cash,
 	  	       ROW_NUMBER() OVER (PARTITION BY @gameName ORDER BY us.Cash DESC)
 	            AS [Row Number]
-
 	          FROM Games AS g
 	          JOIN UsersGames AS us
 	            ON us.GameId = g.Id
